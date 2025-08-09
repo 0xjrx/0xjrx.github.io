@@ -1,6 +1,7 @@
 +++
 title = 'Utilizing Windows Fibers for Shellcode Execution'
 date = 2025-08-08T07:07:07+01:00
+draft: false
 +++
 # Introduction
 
