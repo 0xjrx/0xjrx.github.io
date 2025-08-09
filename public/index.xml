@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Aug 2025 07:07:07 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Utilizing Windows Fibers for Shellcode Execution</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Fri, 08 Aug 2025 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re familiar with the usual shellcode execution techniques, you will know that shellcode typically needs to be run within a thread. A commonality among different methods is the usage of the &lt;em&gt;CreateThread&lt;/em&gt; Windows API function, or &lt;em&gt;NtCreateThreadEx&lt;/em&gt; in the case direct syscalls are utilized. The use of these APIs in combination with methods such as &lt;em&gt;VirtualProtect&lt;/em&gt; and &lt;em&gt;VirtualAlloc&lt;/em&gt; is a common indicator of compromise.&lt;/p&gt;&#xA;&lt;p&gt;However, by utilizing fibers, we can achieve the same result with a lower footprint, potentially avoiding detection by Anti-Virus vendors.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
