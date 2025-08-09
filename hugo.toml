@@ -1,6 +1,6 @@
 baseURL = 'https://0xjrx.github.io/posts/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = '0xjrx Blog'
 theme = 'poison'
 [caches]
   [caches.images]
